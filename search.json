@@ -1,0 +1,242 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Catalogue des procédures",
+    "section": "",
+    "text": "1 Clessnverse",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Clessnverse</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#overview",
+    "href": "index.html#overview",
+    "title": "Catalogue des procédures",
+    "section": "1.1 Overview",
+    "text": "1.1 Overview\nThe Datagotchi Meta Package is a comprehensive R ecosystem designed to streamline data analysis, visualization, and reporting workflows. It combines multiple specialized packages into a cohesive framework, providing tools for everything from data processing to advanced visualizations with a consistent, user-friendly interface.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Clessnverse</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#core-philosophy",
+    "href": "index.html#core-philosophy",
+    "title": "Catalogue des procédures",
+    "section": "1.2 Core Philosophy",
+    "text": "1.2 Core Philosophy\nThe package follows several key principles:\n\nConsistency: All sub-packages follow similar design patterns and naming conventions\nAccessibility: Tools are designed to be usable by both beginners and advanced users\nReproducibility: Emphasis on creating reproducible analyses and reports\nAesthetics: Custom themes and visualization tools that maintain a consistent, professional look",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Clessnverse</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#package-ecosystem",
+    "href": "index.html#package-ecosystem",
+    "title": "Catalogue des procédures",
+    "section": "1.3 Package Ecosystem",
+    "text": "1.3 Package Ecosystem\n\n1.3.1 Data Processing & Analysis\n\nAdvanced data frame inspection and summarization tools\nSurvey data processing utilities\nStatistical analysis functions\nFactor analysis capabilities\nRobust CSV handling and data merging utilities\n\n\n\n1.3.2 Visualization\n\nCustom ggplot2 themes (light and dark variants)\nInteractive plotting tools\nSpecialized visualization functions:\n\nBar plots with custom styling\nCartograms for geographic data\nDecision trees\nCustom overlay capabilities\n\nBuilt-in color schemes for political data visualization\n\n\n\n1.3.3 Reporting\n\nReport generation templates\nInteractive graph creation utilities\nCustom fonts and styling options\nLogo and branding integration",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Clessnverse</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#key-features",
+    "href": "index.html#key-features",
+    "title": "Catalogue des procédures",
+    "section": "1.4 Key Features",
+    "text": "1.4 Key Features\n\n1.4.1 Consistent Theming\nThe package provides a unified visual language through: - Custom fonts (PixelOperatorSC and WebFont) - Predefined color schemes - Standardized plotting themes - Brand-consistent visualization options\n\n\n1.4.2 Interactive Tools\n\nInteractive graph creation with make_graph()\nDecision tree visualization\nCustom barplot creation with datagotchi_barplot()\n\n\n\n1.4.3 Geographic Visualization\n\nBuilt-in US state coordinates for cartograms\nPolitical data visualization tools\nState-level analysis capabilities\n\n\n\n1.4.4 Data Processing\n\nRobust data import capabilities\nSurvey data handling\nMissing data analysis\nStatistical processing utilities",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Clessnverse</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#getting-started",
+    "href": "index.html#getting-started",
+    "title": "Catalogue des procédures",
+    "section": "1.5 Getting Started",
+    "text": "1.5 Getting Started\n\n1.5.1 Installation\n# Install the meta package from GitHub\ndevtools::install_github(\"clessn/datagotchi\")\n\n# Load the package\nlibrary(datagotchi)\n\n\n1.5.2 Basic Usage\n# Load required packages\nlibrary(datagotchi)\n\n# Create a basic visualization with the Datagotchi theme\nggplot(your_data) +\n  geom_point() +\n  theme_datagotchi_light()\n\n# Use the interactive graph maker\nmake_graph(your_data)",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Clessnverse</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#design-philosophy",
+    "href": "index.html#design-philosophy",
+    "title": "Catalogue des procédures",
+    "section": "1.6 Design Philosophy",
+    "text": "1.6 Design Philosophy\nThe Datagotchi Meta Package is built around several core principles:\n\nModularity: Each component is designed to work both independently and as part of the larger ecosystem\nConsistency: All components share common design patterns and naming conventions\nFlexibility: Tools can be customized to meet specific needs while maintaining consistency\nUser Experience: Focus on intuitive interfaces and clear documentation",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Clessnverse</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#future-development",
+    "href": "index.html#future-development",
+    "title": "Catalogue des procédures",
+    "section": "1.7 Future Development",
+    "text": "1.7 Future Development\nThe package is actively maintained and developed, with plans for: - Additional visualization tools - Enhanced reporting capabilities - Expanded geographic analysis tools - More interactive features - Improved documentation and vignettes",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Clessnverse</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#contributing",
+    "href": "index.html#contributing",
+    "title": "Catalogue des procédures",
+    "section": "1.8 Contributing",
+    "text": "1.8 Contributing\nWe welcome contributions from the community. Areas where you can contribute include: - Bug reports and fixes - New features and enhancements - Documentation improvements - Example use cases and tutorials",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Clessnverse</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#support-and-resources",
+    "href": "index.html#support-and-resources",
+    "title": "Catalogue des procédures",
+    "section": "1.9 Support and Resources",
+    "text": "1.9 Support and Resources\n\nGitHub Repository: clessn/datagotchi\nBug Reports: Please use the GitHub issues page\nDocumentation: Available through package documentation and vignettes",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Clessnverse</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#citation",
+    "href": "index.html#citation",
+    "title": "Catalogue des procédures",
+    "section": "1.10 Citation",
+    "text": "1.10 Citation\nWhen using the Datagotchi Meta Package in your research, please cite:\n@software{datagotchi,\n  title = {Datagotchi: A Comprehensive R Package for Data Analysis and Visualization},\n  author = {Your Team},\n  year = {2024},\n  url = {https://github.com/clessn/datagotchi}\n}",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Clessnverse</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#license",
+    "href": "index.html#license",
+    "title": "Catalogue des procédures",
+    "section": "1.11 License",
+    "text": "1.11 License\n[Add your license information here]",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Clessnverse</span>"
+    ]
+  },
+  {
+    "objectID": "sondr.html",
+    "href": "sondr.html",
+    "title": "2  Sondr",
+    "section": "",
+    "text": "2.1 Overview\nThis R package provides a comprehensive suite of utilities for data analysis, focusing on survey data processing, statistical analysis, and data visualization. The package is organized into several key modules:",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Sondr</span>"
+    ]
+  },
+  {
+    "objectID": "sondr.html#overview",
+    "href": "sondr.html#overview",
+    "title": "2  Sondr",
+    "section": "",
+    "text": "Analysis (analysis.R)\nData Cleaning (cleaning.R)\nData Merging (merging.R)\nWeighting (weighting.R)\nUseful Data (useful_data.R)",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Sondr</span>"
+    ]
+  },
+  {
+    "objectID": "sondr.html#installation",
+    "href": "sondr.html#installation",
+    "title": "2  Sondr",
+    "section": "2.2 Installation",
+    "text": "2.2 Installation\n# Install from GitHub (requires devtools)\ndevtools::install_github(\"your-username/package-name\")",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Sondr</span>"
+    ]
+  },
+  {
+    "objectID": "sondr.html#core-functionalities",
+    "href": "sondr.html#core-functionalities",
+    "title": "2  Sondr",
+    "section": "2.3 Core Functionalities",
+    "text": "2.3 Core Functionalities\n\n2.3.1 Analysis Module\n\n2.3.1.1 glimpse_with_table()\nA powerful data frame inspection function that extends dplyr::glimpse() functionality.\nUsage:\nglimpse_with_table(df, n_values = 5)\nArguments: - df: Data frame to be summarized - n_values: Number of unique values to display (default: 5)\nFeatures: - Displays row and column counts - Shows column types - Highlights missing data with color-coded percentages - Presents frequency tables for categorical variables\nExample:\ndf &lt;- data.frame(\n  x = sample(c(\"A\", \"B\", \"C\"), size = 100, replace = TRUE),\n  y = sample(c(\"D\", \"E\", \"F\"), size = 100, replace = TRUE)\n)\nglimpse_with_table(df)\n\n\n2.3.1.2 topdown_fa()\nPerforms top-down factor analysis with visualization.\nUsage:\ntopdown_fa(df, nfactors = 1)\nArguments: - df: Data frame for factor analysis - nfactors: Number of factors to extract (default: 1)\nReturns: - ggplot visualization - List containing: - Cronbach’s alpha - First eigenvalue - Factor loadings - Factor analysis plot\n\n\n2.3.1.3 qualtrics_na_counter()\nAnalyzes missing data patterns in Qualtrics survey data.\nUsage:\nqualtrics_na_counter(data)\nFeatures: - Handles text columns appropriately - Groups variables by common prefixes - Generates visualizations of missing data patterns - Returns detailed missing data statistics\n\n\n\n2.3.2 Cleaning Module\n\n2.3.2.1 parse_money_range()\nParses string monetary ranges into numeric vectors.\nUsage:\nparse_money_range(value, sep = NULL, limit = NULL, ceiling_increment = 10000)\nArguments: - value: String containing monetary range - sep: Separator between range values - limit: How to handle unbounded ranges (“floor”/“ceiling”) - ceiling_increment: Value to add for ceiling limits\nExamples:\nparse_money_range(\"$1,000 to $1,999\", sep = \"to\")\nparse_money_range(\"under $1,000\", limit = \"floor\")\nparse_money_range(\"$15,000 or over\", limit = \"ceiling\")\n\n\n2.3.2.2 clean_likert_numeric_vector()\nNormalizes Likert scale responses.\nUsage:\nclean_likert_numeric_vector(raw_vector)\nFeatures: - Scales data to 0-1 range - Preserves original response spacing - Handles missing values appropriately\n\n\n2.3.2.3 finverser()\nInverts the order of unique values while preserving spacing.\nUsage:\nfinverser(vec_col)\n\n\n2.3.2.4 min_max_normalization()\nPerforms min-max normalization on numeric vectors.\nUsage:\nmin_max_normalization(x)\n\n\n\n2.3.3 Merging Module\n\n2.3.3.1 read_any_csv()\nRobust CSV file reader with multiple fallback methods.\nUsage:\nread_any_csv(file_path, ...)\nFeatures: - Multiple reading attempts with different methods - Handles problematic headers - Supports various delimiters - Error handling and informative messages\n\n\n2.3.3.2 read_survey()\nUniversal survey data reader supporting multiple formats.\nUsage:\nread_survey(file)\nSupported formats: - CSV - XLSX - SPSS (.sav) - RDS\n\n\n2.3.3.3 Utility Functions\n\nload_variable(): Extracts specific variables from files\ngenerate_survey_ids(): Creates unique survey identifiers\nmatch_and_update(): Updates vectors based on matching names\nextract_elements_with_prefix(): Extracts elements with matching prefixes\n\n\n\n\n2.3.4 Weighting Module\n\n2.3.4.1 stratification_table()\nCreates weighted stratified tables for demographic analysis.\nUsage:\nstratification_table(data, strata_level = \"ses_state\", strata_vars, weight_var = \"weight\")",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Sondr</span>"
+    ]
+  },
+  {
+    "objectID": "sondr.html#included-datasets",
+    "href": "sondr.html#included-datasets",
+    "title": "2  Sondr",
+    "section": "2.4 Included Datasets",
+    "text": "2.4 Included Datasets\n\n2.4.1 US Counties Data\nContains county-level information including: - FIPS codes - Population density - Electoral projections\n\n\n2.4.2 US Counties Map Data\nGeographic boundary data for US counties: - Longitude/latitude coordinates - FIPS codes - Boundary definitions",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Sondr</span>"
+    ]
+  },
+  {
+    "objectID": "sondr.html#best-practices-and-tips",
+    "href": "sondr.html#best-practices-and-tips",
+    "title": "2  Sondr",
+    "section": "2.5 Best Practices and Tips",
+    "text": "2.5 Best Practices and Tips\n\nData Loading:\n\nUse read_survey() as the primary data loading function\nFor problematic CSVs, try read_any_csv() with different parameters\n\nSurvey Data Processing:\n\nClean Likert scales with clean_likert_numeric_vector()\nHandle missing data using qualtrics_na_counter()\nUse parse_money_range() for income/monetary data\n\nAnalysis Workflow:\n\nStart with glimpse_with_table() for data exploration\nUse topdown_fa() for factor analysis\nApply appropriate normalization functions\n\nPerformance Considerations:\n\nLarge datasets (&gt;1M rows) may require chunked processing\nConsider using data.table for very large datasets\nUse appropriate encoding settings when reading files",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Sondr</span>"
+    ]
+  },
+  {
+    "objectID": "sondr.html#potential-improvements",
+    "href": "sondr.html#potential-improvements",
+    "title": "2  Sondr",
+    "section": "2.6 Potential Improvements",
+    "text": "2.6 Potential Improvements\n\nFunction Enhancements:\n\nAdd parallel processing support for large datasets\nImplement more robust error handling\nAdd support for more file formats\nEnhance visualization options\n\nDocumentation:\n\nAdd more examples\nCreate vignettes for common use cases\nImprove function cross-referencing\n\nTesting:\n\nIncrease test coverage\nAdd stress tests for large datasets\nInclude more edge cases\n\nNew Features:\n\nAdd support for longitudinal data analysis\nImplement more statistical methods\nAdd export functions for various formats\nCreate interactive visualizations",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Sondr</span>"
+    ]
+  },
+  {
+    "objectID": "sondr.html#dependencies",
+    "href": "sondr.html#dependencies",
+    "title": "2  Sondr",
+    "section": "2.7 Dependencies",
+    "text": "2.7 Dependencies\n\ndplyr\nggplot2\nreadr\nhaven\nreadxl\npsych\nstringr\ntidyr",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Sondr</span>"
+    ]
+  },
+  {
+    "objectID": "sondr.html#contributing",
+    "href": "sondr.html#contributing",
+    "title": "2  Sondr",
+    "section": "2.8 Contributing",
+    "text": "2.8 Contributing\nContributions are welcome! Please consider:\n\nFollowing the existing code style\nAdding tests for new features\nUpdating documentation\nCreating detailed pull requests",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Sondr</span>"
+    ]
+  },
+  {
+    "objectID": "sondr.html#license",
+    "href": "sondr.html#license",
+    "title": "2  Sondr",
+    "section": "2.9 License",
+    "text": "2.9 License\n[Add your license information here]",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Sondr</span>"
+    ]
+  },
+  {
+    "objectID": "sondr.html#contact",
+    "href": "sondr.html#contact",
+    "title": "2  Sondr",
+    "section": "2.10 Contact",
+    "text": "2.10 Contact\n[Add your contact information here]",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Sondr</span>"
+    ]
+  },
+  {
+    "objectID": "sondr.html#citation",
+    "href": "sondr.html#citation",
+    "title": "2  Sondr",
+    "section": "2.11 Citation",
+    "text": "2.11 Citation\n[Add citation information here]",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Sondr</span>"
+    ]
+  }
+]

@@ -1,0 +1,40 @@
+project:
+  type: book
+  output-dir: ..
+
+book:
+  title: "Catalogue des procédures"
+  reader-mode: true
+
+  page-footer:
+    left: |
+      Catalogue des procédures
+    right: |
+      Ce livre a été écrit avec <a href="https://quarto.org/">Quarto</a>.
+  cover-image: https://clessn.com/assets/img/logo-black.svg
+  favicon: https://clessn.com/assets/img/logo-black.svg
+  repo-url: https://github.com/clessnverse
+  repo-branch: main
+  repo-actions: [edit, issue]
+  chapters:
+    - index.qmd
+    - sondr.qmd
+
+bibliography: references.bib
+csl: https://www.zotero.org/styles/apa
+citations-hover: true
+citeproc: true
+
+lang: en_US
+
+format:
+  html:
+    theme:
+      light: pulse
+      dark: slate
+    code-link: true
+    code-copy: true
+
+    author-meta: "Chaire de leadership en enseignement des sciences sociales numériques (CLESSN)"
+    callout-appearance: simple
+editor: visual
