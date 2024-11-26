@@ -1,2 +1,2 @@
-# clessnverse.github.io
-Site web de la clessnverse
+# ellipse-science.github.io
+Site web de ellipse-science
